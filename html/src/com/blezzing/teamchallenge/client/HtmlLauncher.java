@@ -3,7 +3,7 @@ package com.blezzing.teamchallenge.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.blezzing.teamchallenge.TeamChallenge;
+import com.blezzing.teamchallenge.Main;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener getApplicationListener () {
-                return new TeamChallenge();
+                return new Main();
         }
 }
